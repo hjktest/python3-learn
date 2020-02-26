@@ -22,4 +22,5 @@ for k,v in d.items():
     print(k,'=',v)
 
 L=['Hello','World','IBM','Apple']
-print[s.lower()  for s in L ]
+print([s.lower() for s in L])
+print([x if x%2==0 else -x for x in range(1,11)])
