@@ -17,11 +17,6 @@ print(sorted(students,key=itemgetter(0)))
 print(sorted(students,key=lambda t:t[1]))
 print(sorted(students,key=itemgetter(1),reverse=True))
 
-
-
-
-
-
 print(sorted([36, 5, -12, 9, -21]))
 # abs
 print(sorted([36,5,-12,9,-21],key=abs))
