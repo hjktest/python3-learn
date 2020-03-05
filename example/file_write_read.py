@@ -16,7 +16,7 @@ with open('C:\\selenium\\data\\password.txt','r',encoding='gbk') as f:
     print(f.read())
 
 with open('C:\\selenium\\data\\password.txt','a') as f:
-    f.write('Hello world!')
+    f.write('Hello world!\n')
 with open('C:\\selenium\\data\\password.txt','r',encoding='gbk') as f:
     print(f.read())
 
